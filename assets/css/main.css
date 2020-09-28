@@ -2056,6 +2056,8 @@ input, select, textarea {
 	}
 
 		.image[data-position] img {
+            width: 2160px;
+            height: 472px;
 			-moz-object-fit: cover;
 			-webkit-object-fit: cover;
 			-ms-object-fit: cover;
