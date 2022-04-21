@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./About.css";
 import profile from "../../img/profile.jpg";
 // import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 
 function About() {
+
     return (
-        <div className="row page">
+        <div id="about" className="row page">
             <div className="backgroundColour left">
                 <h1 className="title">About</h1>
                 {/* <BottomNagivationBar /> */}

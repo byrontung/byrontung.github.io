@@ -2,14 +2,13 @@ import React from "react";
 import "./Welcome.css";
 import { motion } from "framer-motion";
 
-{
     /* <input type="button" onClick="document.getElementById('middle').scrollIntoView();" /> */
-}
 
 function Welcome() {
     return (
         <motion.div
             className="page"
+            id="welcome"
             // id="logo"
             // initial={{ opacity: 1, display: "block" }}
             // animate={{ opacity: 0, transitionEnd: { display: "none" } }}

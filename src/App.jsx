@@ -10,8 +10,8 @@ function App() {
     return (
         <>
             <Welcome />
-            <BottomNagivationBar />
             <About />
+            <BottomNagivationBar />
             {/* <Logo /> */}
             {/* <TopNavigationBar /> */}
             {/* <Container>
