@@ -6,10 +6,14 @@ import Logo from "./component/logo/Logo";
 import BottomNagivationBar from "./component/bottomNavigationbar/BottomNagivationBar";
 import About from "./component/about/About";
 import { motion } from "framer-motion";
+import Helmet from "react-helmet";
 
 function App() {
     return (
         <>
+            <Helmet>
+                <title>Byron Tung</title>
+            </Helmet>
             <Welcome />
             <About />
             {/* <Logo /> */}
