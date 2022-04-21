@@ -1,6 +1,4 @@
 import "./App.css";
-import TopNavigationBar from "./component/TopNavigationBar";
-import { Card, Container, TableSortLabel, Typography } from "@mui/material";
 import Welcome from "./component/welcome/Welcome";
 import Logo from "./component/logo/Logo";
 import BottomNagivationBar from "./component/bottomNavigationbar/BottomNagivationBar";

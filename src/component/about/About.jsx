@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./About.css";
 import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
