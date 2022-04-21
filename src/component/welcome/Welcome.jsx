@@ -10,8 +10,8 @@ function Welcome() {
         <div className="page_welcome">
             <svg
                 id="logo"
-                width="320"
-                height="385"
+                width="50%"
+                height="50%"
                 viewBox="0 0 320 385"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
