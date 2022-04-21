@@ -1,15 +1,21 @@
 import "./App.css";
 import TopNavigationBar from "./component/TopNavigationBar";
 import { Card, Container, TableSortLabel, Typography } from "@mui/material";
-import Welcome from "./component/Welcome";
+import Welcome from "./component/welcome/Welcome";
+import Logo from "./component/logo/Logo";
+import BottomNagivationBar from "./component/bottomNavigationbar/BottomNagivationBar";
+import About from "./component/about/About";
 
 function App() {
     return (
-        <div>
-            <Welcome/>
+        <>
+            <Welcome />
+            <BottomNagivationBar />
+            <About />
+            {/* <Logo /> */}
             {/* <TopNavigationBar /> */}
             {/* <Container>
-                <Card sx={{ m: 10 }}>
+                <Card>
                     <Typography variant="h4" style={{ paddingBottom: 10 }}>
                         Welcome to my website!
                     </Typography>
@@ -26,7 +32,7 @@ function App() {
                     </Typography>
                 </Card>
             </Container> */}
-        </div>
+        </>
     );
 }
 
