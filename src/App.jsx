@@ -5,13 +5,13 @@ import Welcome from "./component/welcome/Welcome";
 import Logo from "./component/logo/Logo";
 import BottomNagivationBar from "./component/bottomNavigationbar/BottomNagivationBar";
 import About from "./component/about/About";
+import { motion } from "framer-motion";
 
 function App() {
     return (
         <>
             <Welcome />
             <About />
-            <BottomNagivationBar />
             {/* <Logo /> */}
             {/* <TopNavigationBar /> */}
             {/* <Container>

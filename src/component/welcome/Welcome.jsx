@@ -1,24 +1,13 @@
 import React from "react";
 import "./Welcome.css";
 import { motion } from "framer-motion";
+import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 
-    /* <input type="button" onClick="document.getElementById('middle').scrollIntoView();" /> */
+/* <input type="button" onClick="document.getElementById('middle').scrollIntoView();" /> */
 
 function Welcome() {
     return (
-        <motion.div
-            className="page"
-            id="welcome"
-            // id="logo"
-            // initial={{ opacity: 1, display: "block" }}
-            // animate={{ opacity: 0, transitionEnd: { display: "none" } }}
-            // transition={{
-            //     type: "spring",
-            //     stiffness: 100,
-            //     damping: 20,
-            //     delay: 5,
-            // }}
-        >
+        <div className="page_welcome">
             <svg
                 id="logo"
                 width="320"
@@ -73,7 +62,20 @@ function Welcome() {
                     strokeWidth="2"
                 />
             </svg>
-        </motion.div>
+            <motion.div
+                className="main"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 20,
+                    delay: 4,
+                }}
+            >
+                <BottomNagivationBar />
+            </motion.div>
+        </div>
     );
 }
 
