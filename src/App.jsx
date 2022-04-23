@@ -9,11 +9,13 @@ import Helmet from "react-helmet";
 function App() {
     return (
         <>
+            {/* This is causing: react_devtools_backend.js:3973 Warning: Using UNSAFE_componentWillMount in strict mode is not recommended and may indicate bugs in your code. */}
             <Helmet>
                 <title>Byron Tung</title>
             </Helmet>
             <Welcome />
             <About />
+            {/* <Welcome /> */}
             {/* <Logo /> */}
             {/* <TopNavigationBar /> */}
             {/* <Container>
