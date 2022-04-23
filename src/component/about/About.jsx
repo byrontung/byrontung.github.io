@@ -4,28 +4,9 @@ import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 
 function About() {
-    const [fixed, setFixed] = useState(false);
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
-
-    const handleScroll = () => {
-        const position = window.scrollY;
-        const height = window.innerHeight;
-        if (position >= height) {
-            setFixed(true);
-        } else {
-            setFixed(false);
-        }
-    };
-
     return (
-        <>
-            <div id="about" className="outer_div">
-                <div className="scroll-content-left">
+            <div id="about" className="page_about">
+                <div className="left">
                     <div>
                         <h1 className="title">Welcome</h1>
                         <div className="main">
@@ -33,8 +14,11 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="scroll-content-right">
+                <div className="right">
                     <div>
+                        <div className="profile">
+                            <img className="profileImage" src={profile} alt="Profile" />
+                        </div>
                         <h1 className="">Welcome to my website!</h1>
                         <h1 className="">
                             Hello! My name is Byron Tung and I am student at the
@@ -80,7 +64,6 @@ function About() {
                     </div>
                 </div>
             </div>
-        </>
         // {/* <div className="main">
         //         <BottomNagivationBar />
         //     </div> */}
