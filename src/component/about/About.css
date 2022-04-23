@@ -1,28 +1,44 @@
 .page_about {
     display: flex;
     position: relative;
-    flex-direction: row;
+    min-height: 100vh;
     width: 100%;
-    height: 100vh;
-}
-
-.backgroundColour {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
 }
 
 .right {
+    position: relative;
+    height: 100%;
+    right: 0;
+    /* learn about flex grow and flex shrink */
+    flex: 1 0 50%;
     background-color: whitesmoke;
 }
 
+.right > h1 {
+    padding: 15px;
+}
+
 .left {
+    position: sticky;
+    flex: 1 0 50%;
+    top: 0;
     display: flex;
+    height: auto;
+    align-items: center;
+} 
+
+.left > div {
+    display: flex;
+    position: sticky;
     justify-content: center;
     align-items: center;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
     background-color: #B8BDB5;
-    height: 100%;
 }
+
 
 .title {
     font-family: Tangerine;
@@ -39,7 +55,7 @@
     padding-top: 2em;
 }
 
-.profileImage{
+.profileImage {
     width: 20em;
     height: 20em;
     border-radius: 90px;

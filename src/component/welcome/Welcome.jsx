@@ -7,7 +7,7 @@ import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 
 function Welcome() {
     return (
-        <div className="page_welcome">
+        <div id="welcome" className="page_welcome">
             <svg
                 id="logo"
                 width="50%"
