@@ -6,13 +6,16 @@
 }
 
 .right {
-    padding: 5px 20px;
     position: relative;
     height: 100%;
     right: 0;
     /* learn about flex grow and flex shrink */
-    flex: 1 0 35%;
+    flex: 1 0 50%;
     background-color: whitesmoke;
+}
+
+.right > h1 {
+    padding: 15px;
 }
 
 .left {
