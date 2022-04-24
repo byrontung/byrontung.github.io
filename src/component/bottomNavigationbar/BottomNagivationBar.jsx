@@ -27,9 +27,27 @@ function BottomNagivationBar() {
                 About
             </h3>
             <h3>|</h3>
-            <h3 className="option">Project</h3>
+            <h3
+                className="option"
+                onClick={() =>
+                    document
+                        .getElementById("projects")
+                        .scrollIntoView({ behavior: "smooth" })
+                }
+            >
+                Project
+            </h3>
             <h3>|</h3>
-            <h3 className="option">Contact</h3>
+            <h3
+                className="option"
+                onClick={() =>
+                    document
+                        .getElementById("contact")
+                        .scrollIntoView({ behavior: "smooth" })
+                }
+            >
+                Contact
+            </h3>
         </>
     );
 }

@@ -5,6 +5,8 @@ import BottomNagivationBar from "./component/bottomNavigationbar/BottomNagivatio
 import About from "./component/about/About";
 import { motion } from "framer-motion";
 import Helmet from "react-helmet";
+import Projects from "./component/projects/Projects";
+import Contact from "./component/contact/Contact";
 
 function App() {
     return (
@@ -15,6 +17,8 @@ function App() {
             </Helmet>
             <Welcome />
             <About />
+            <Projects />
+            <Contact />
             {/* <Welcome /> */}
             {/* <Logo /> */}
             {/* <TopNavigationBar /> */}
