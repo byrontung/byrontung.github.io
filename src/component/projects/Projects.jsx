@@ -1,6 +1,8 @@
 import React from "react";
 import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faReact, faPython, faJava, faAndroid, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 function Projects() {
     return (
@@ -22,6 +24,8 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
+                    <FontAwesomeIcon icon={faReact} />
+                    <FontAwesomeIcon icon={faPython} />
                     <h1>Edmonton SafeWalk</h1>
                 </div>
                 <div>
@@ -32,6 +36,8 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
+                    <FontAwesomeIcon icon={faJava} />
+                    <FontAwesomeIcon icon={faAndroid} />
                     <h1>Experimently</h1>
                 </div>
                 <div>
@@ -42,6 +48,7 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
+                    <FontAwesomeIcon icon={faPython} />
                     <h1>Restaurant Order Organizer</h1>
                 </div>
                 <div>
@@ -52,6 +59,7 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
+                    <FontAwesomeIcon icon={faPython} />                    
                     <h1>PokemonEffectiveness</h1>
                 </div>
             </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
+
 
 function Contact() {
     return (
@@ -22,6 +26,7 @@ function Contact() {
                             alt="Profile"
                         />
                     </div>
+                    <FontAwesomeIcon icon={faLinkedin} />
                     <h1>LinkedIn</h1>
                 </div>
                 <div>
@@ -32,6 +37,7 @@ function Contact() {
                             alt="Profile"
                         />
                     </div>
+                    <FontAwesomeIcon icon={faGithub} />
                     <h1>Github</h1>
                 </div>
                 <div>
@@ -42,7 +48,8 @@ function Contact() {
                             alt="Profile"
                         />
                     </div>
-                    <h1>Edmonton SafeWalk</h1>
+                    <FontAwesomeIcon icon={faEnvelope} />
+                    <h1>Email</h1>
                 </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./BottomNagivationBar.css";
-import { motion } from "framer-motion";
 
 function BottomNagivationBar() {
     return (
