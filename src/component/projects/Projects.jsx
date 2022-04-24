@@ -1,14 +1,21 @@
 import React from "react";
 import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faReact, faPython, faJava, faAndroid, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faReact,
+    faPython,
+    faJava,
+    faAndroid,
+} from "@fortawesome/free-brands-svg-icons";
+import eswImage from "../../img/esw2.png";
+import "./Projects.css";
 
 function Projects() {
     return (
         <div id="projects" className="page_about">
             <div className="left">
-                <div style={{ backgroundColor: "#D2D4C8" }}>
+                <div style={{ backgroundColor: "#DFD4C8" }}>
                     <h1 className="title">Projects</h1>
                     <div className="main">
                         <BottomNagivationBar />
@@ -16,19 +23,27 @@ function Projects() {
                 </div>
             </div>
             <div className="right" style={{ backgroundColor: "white" }}>
-                <div>
+                <div className="fullscreenFill">
+                    <h1>
+                        Edmonton SafeWalk
+                        <FontAwesomeIcon icon={faReact} />
+                        <FontAwesomeIcon icon={faPython} />
+                    </h1>
                     <div className="profile">
                         <img
-                            className="profileImage"
-                            src={profile}
+                            className="right_image_project"
+                            src={eswImage}
                             alt="Profile"
                         />
                     </div>
-                    <FontAwesomeIcon icon={faReact} />
-                    <FontAwesomeIcon icon={faPython} />
-                    <h1>Edmonton SafeWalk</h1>
+
                 </div>
-                <div>
+                <div className="fullscreenFill">
+                    <h1>
+                        Experimently
+                        <FontAwesomeIcon icon={faJava} />
+                        <FontAwesomeIcon icon={faAndroid} />
+                    </h1>
                     <div className="profile">
                         <img
                             className="profileImage"
@@ -36,11 +51,13 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-                    <FontAwesomeIcon icon={faJava} />
-                    <FontAwesomeIcon icon={faAndroid} />
-                    <h1>Experimently</h1>
+
                 </div>
-                <div>
+                <div className="fullscreenFill">
+                    <h1>
+                        Restaurant Order Organizer
+                        <FontAwesomeIcon icon={faPython} />
+                    </h1>
                     <div className="profile">
                         <img
                             className="profileImage"
@@ -48,10 +65,13 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-                    <FontAwesomeIcon icon={faPython} />
-                    <h1>Restaurant Order Organizer</h1>
+
                 </div>
-                <div>
+                <div className="fullscreenFill">
+                    <h1>
+                        PokemonEffectiveness
+                        <FontAwesomeIcon icon={faPython} />
+                    </h1>
                     <div className="profile">
                         <img
                             className="profileImage"
@@ -59,8 +79,6 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-                    <FontAwesomeIcon icon={faPython} />                    
-                    <h1>PokemonEffectiveness</h1>
                 </div>
             </div>
         </div>
