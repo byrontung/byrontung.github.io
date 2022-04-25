@@ -1,10 +1,9 @@
 import React from "react";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faEnvelope, faFile} from "@fortawesome/free-solid-svg-icons"
-import "./Contact.css"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
+import "./Contact.css";
 
 function Contact() {
     return (
@@ -17,16 +16,22 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <div className="right">                
+            <div className="right">
                 <div className="contact_items">
-                    <FontAwesomeIcon icon={faLinkedin} fontSize={100}/>
-                    <h1>LinkedIn</h1>
-                    <FontAwesomeIcon icon={faGithub} fontSize={100}/>
-                    <h1>Github</h1>
-                    <FontAwesomeIcon icon={faEnvelope} fontSize={100}/>
-                    <h1>Email</h1>
-                    <FontAwesomeIcon icon={faFile} fontSize={100}/>
-                    <h1>Resume</h1>
+                    <div>
+                        <FontAwesomeIcon icon={faLinkedin} fontSize={100} />
+                        <h1>LinkedIn</h1>
+                    </div>
+                    <div>
+                        <FontAwesomeIcon icon={faGithub} fontSize={100} />
+                        <h1>Github</h1>
+                    </div>
+                    {/* <FontAwesomeIcon icon={faEnvelope} fontSize={100}/>
+                    <h1>Email</h1> */}
+                    <div>
+                        <FontAwesomeIcon icon={faFile} fontSize={100} />
+                        <h1>Resume</h1>
+                    </div>
                 </div>
             </div>
         </div>

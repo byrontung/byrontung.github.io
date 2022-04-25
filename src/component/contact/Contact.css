@@ -2,8 +2,12 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #B19CD9;
+}
+
+.contact_items > * {
+    padding: 20px
 }
