@@ -3,6 +3,7 @@ import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
+import resume from "../../img/ByronTungResume2022Fall.pdf"
 import "./Contact.css";
 
 function Contact() {
@@ -29,7 +30,7 @@ function Contact() {
                     {/* <FontAwesomeIcon icon={faEnvelope} fontSize={100}/>
                     <h1>Email</h1> */}
                     <div>
-                        <FontAwesomeIcon icon={faFile} fontSize={100} />
+                        <a href={resume} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFile} fontSize={100} color="black"/></a>
                         <h1>Resume</h1>
                     </div>
                 </div>

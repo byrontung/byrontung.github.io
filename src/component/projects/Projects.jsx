@@ -1,15 +1,14 @@
+import {
+    faAndroid, faJava, faPython, faReact
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import eswImage from "../../img/esw2.png";
 import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faReact,
-    faPython,
-    faJava,
-    faAndroid,
-} from "@fortawesome/free-brands-svg-icons";
-import eswImage from "../../img/esw2.png";
 import "./Projects.css";
+import { motion } from "framer-motion";
+
 
 function Projects() {
     return (
@@ -23,7 +22,9 @@ function Projects() {
                 </div>
             </div>
             <div className="right" style={{ backgroundColor: "white" }}>
-                <div className="fullscreenFill">
+                <motion.div className="fullscreenFill"
+                whileHover={{zoom:1.2}}
+                >
                     <h1>
                         Edmonton SafeWalk
                         <FontAwesomeIcon icon={faReact} />
@@ -37,7 +38,7 @@ function Projects() {
                         />
                     </div>
 
-                </div>
+                </motion.div>
                 <div className="fullscreenFill">
                     <h1>
                         Experimently
