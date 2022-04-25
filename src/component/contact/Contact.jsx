@@ -20,11 +20,11 @@ function Contact() {
             <div className="right">
                 <div className="contact_items">
                     <div>
-                        <FontAwesomeIcon icon={faLinkedin} fontSize={100} />
+                    <a href="https://www.linkedin.com/in/byron-tung/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} fontSize={100} color="black"/></a>
                         <h1>LinkedIn</h1>
                     </div>
                     <div>
-                        <FontAwesomeIcon icon={faGithub} fontSize={100} />
+                    <a href="https://github.com/byrontung" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} fontSize={100} color="black"/></a>
                         <h1>Github</h1>
                     </div>
                     {/* <FontAwesomeIcon icon={faEnvelope} fontSize={100}/>
