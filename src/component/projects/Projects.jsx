@@ -1,5 +1,8 @@
 import {
-    faAndroid, faJava, faPython, faReact
+    faAndroid,
+    faJava,
+    faPython,
+    faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -8,7 +11,6 @@ import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 import "./Projects.css";
 import { motion } from "framer-motion";
-
 
 function Projects() {
     return (
@@ -22,8 +24,9 @@ function Projects() {
                 </div>
             </div>
             <div className="right" style={{ backgroundColor: "white" }}>
-                <motion.div className="fullscreenFill"
-                whileHover={{zoom:1.2}}
+                <motion.div
+                    className="fullscreenFill"
+                    whileHover={{ zoom: 1.2 }}
                 >
                     <h1>
                         Edmonton SafeWalk
@@ -37,7 +40,6 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-
                 </motion.div>
                 <div className="fullscreenFill">
                     <h1>
@@ -52,7 +54,6 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-
                 </div>
                 <div className="fullscreenFill">
                     <h1>
@@ -66,7 +67,6 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-
                 </div>
                 <div className="fullscreenFill">
                     <h1>
