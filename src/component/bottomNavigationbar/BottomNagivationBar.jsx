@@ -3,7 +3,7 @@ import "./BottomNagivationBar.css";
 
 function BottomNagivationBar() {
     return (
-        <>
+        <div className="d-flex flex-row">
             <h3
                 className="option"
                 onClick={() =>
@@ -47,7 +47,7 @@ function BottomNagivationBar() {
             >
                 Contact
             </h3>
-        </>
+        </div>
     );
 }
 
