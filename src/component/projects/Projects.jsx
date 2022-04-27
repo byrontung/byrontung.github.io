@@ -30,8 +30,8 @@ function Projects() {
                 >
                     <h1>
                         Edmonton SafeWalk
-                        <FontAwesomeIcon icon={faReact} />
-                        <FontAwesomeIcon icon={faPython} />
+                        <FontAwesomeIcon className="icon" icon={faReact} />
+                        <FontAwesomeIcon className="icon" icon={faPython} />
                     </h1>
                     <div className="profile">
                         <img
@@ -44,8 +44,8 @@ function Projects() {
                 <div className="fullscreenFill">
                     <h1>
                         Experimently
-                        <FontAwesomeIcon icon={faJava} />
-                        <FontAwesomeIcon icon={faAndroid} />
+                        <FontAwesomeIcon className="icon" icon={faJava} />
+                        <FontAwesomeIcon className="icon" icon={faAndroid} />
                     </h1>
                     <div className="profile">
                         <img
@@ -58,7 +58,7 @@ function Projects() {
                 <div className="fullscreenFill">
                     <h1>
                         Restaurant Order Organizer
-                        <FontAwesomeIcon icon={faPython} />
+                        <FontAwesomeIcon className="icon" icon={faPython} />
                     </h1>
                     <div className="profile">
                         <img
@@ -71,7 +71,7 @@ function Projects() {
                 <div className="fullscreenFill">
                     <h1>
                         PokemonEffectiveness
-                        <FontAwesomeIcon icon={faPython} />
+                        <FontAwesomeIcon className="icon" icon={faPython} />
                     </h1>
                     <div className="profile">
                         <img
