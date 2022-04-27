@@ -1,15 +1,15 @@
-.contact_items{
+.contact_items {
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    background-color: #B19CD9;
+    justify-content: space-evenly;
+    background-color: #b19cd9;
 }
 
 .contact_items > * {
-    padding: 20px
+    font-size: 80%;
 }
 
 .links {
