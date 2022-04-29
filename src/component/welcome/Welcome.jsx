@@ -12,12 +12,14 @@ function Welcome() {
         logo: { color: "whitesmoke" },
     };
     return (
-        <Container fluid className="vh-100 w-100 p-0">
+        <Container id="welcome" fluid className="vh-100 w-100 p-0">
             <Row
-                className="d-flex vh-100 align-items-center justify-content-center"
+                id="welcomeRow"
+                className="d-flex vh-100 w-100 m-0 align-items-center justify-content-center"
                 style={styles.background}
             >
                 <svg
+                    className="p-0"
                     id="logo"
                     width="50%"
                     height="50%"

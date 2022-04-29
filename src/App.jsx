@@ -11,13 +11,13 @@ import { Container } from "react-bootstrap";
 
 function App() {
     return (
-        <Container fluid>
+        <Container fluid className="p-0">
             {/* This is causing: react_devtools_backend.js:3973 Warning: Using UNSAFE_componentWillMount in strict mode is not recommended and may indicate bugs in your code. */}
             <Helmet>
                 <title>Byron Tung</title>
             </Helmet>
             <Welcome />
-            {/* <About /> */}
+            <About />
             {/* <Projects /> */}
             {/* <Contact /> */}
         </Container>
