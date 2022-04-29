@@ -18,7 +18,7 @@ function App() {
             </Helmet>
             <Welcome />
             <About />
-            {/* <Projects /> */}
+            <Projects />
             {/* <Contact /> */}
         </Container>
     );

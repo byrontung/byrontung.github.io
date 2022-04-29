@@ -15,6 +15,7 @@ function About() {
             className="d-flex position-relative min-vh-100 w-100 p-0 m-0"
         >
             <Col
+                id="about_left"
                 className="col-6 position-sticky flex-grow-1 flex-shrink-0 d-flex align-items-center h-auto p-0"
                 style={styles.backgroundLeft}
             >
@@ -26,6 +27,7 @@ function About() {
                 </div>
             </Col>
             <Col
+                id="about_right"
                 className="col-6 d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
                 style={styles.backgroundRight}
             >
