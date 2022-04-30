@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 import { Container, Row } from "react-bootstrap";
 
-/* <input type="button" onClick="document.getElementById('middle').scrollIntoView();" /> */
-
 function Welcome() {
     const styles = {
         background: { backgroundColor: "#5f7470" },

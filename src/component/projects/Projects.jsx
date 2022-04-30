@@ -26,7 +26,7 @@ function Projects() {
         >
             <Col
                 id="projects_left"
-                className="col-6 position-sticky flex-grow-1 flex-shrink-0 d-flex align-items-center h-auto p-0"
+                className="position-sticky flex-grow-1 flex-shrink-0 d-flex align-items-center h-auto p-0"
                 style={styles.backgroundLeft}
             >
                 <div className="position-sticky flex-column d-flex justify-content-center top-0 bottom-0 align-items-center w-100 vh-100">
@@ -38,10 +38,10 @@ function Projects() {
             </Col>
             <Col
                 id="projects_right"
-                className="col-6 d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
+                className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
                 style={styles.backgroundRight}
             >
-                <motion.div className="vh-100 w-100" whileHover={{ zoom: 1.2 }}>
+                <motion.div className="vh-100 w-100v d-flex flex-column align-items-center" whileHover={{ zoom: 1.2 }}>
                     <h1>Edmonton SafeWalk</h1>
                     <h1>
                         <FontAwesomeIcon className="icon" icon={faReact} />

@@ -16,7 +16,7 @@ function About() {
         >
             <Col
                 id="about_left"
-                className="col-6 position-sticky flex-grow-1 flex-shrink-0 d-flex align-items-center h-auto p-0"
+                className="position-sticky flex-grow-1 flex-shrink-0 d-flex align-items-center h-auto p-0"
                 style={styles.backgroundLeft}
             >
                 <div className="position-sticky flex-column d-flex justify-content-center top-0 bottom-0 align-items-center w-100 vh-100">
@@ -28,7 +28,7 @@ function About() {
             </Col>
             <Col
                 id="about_right"
-                className="col-6 d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
+                className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
                 style={styles.backgroundRight}
             >
                 <div className="profile">
