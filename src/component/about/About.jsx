@@ -28,7 +28,7 @@ function About() {
       </Col>
       <Col
         id="about_right"
-        className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
+        className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0 pb-5"
         style={styles.backgroundRight}
       >
         <div className="pt-5">
