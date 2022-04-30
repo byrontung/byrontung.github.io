@@ -2,13 +2,13 @@
 /* font-family: 'Tangerine', cursive; */
 
 .App {
-    text-align: center;
+  text-align: center;
 }
 
 body {
-    /* overflow: hidden; */
-    /* display: absolute; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    width: 100%;
+  /* overflow: hidden; */
+  /* display: absolute; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
 }
