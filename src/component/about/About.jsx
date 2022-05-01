@@ -34,33 +34,31 @@ function About() {
         <div className="py-5">
           <img className="profileImage" src={profile} alt="Profile" />
         </div>
-        <h2 className="px-4">
-          Hello! My name is Byron Tung and I am third year student at the University of
-          Alberta pursing a Specialized Computer Science Degree.
+        <h2 className="px-4 py-1">
+          Hello! My name is Byron Tung and I am third year student at the
+          University of Alberta pursing a Specialized Computer Science Degree.
         </h2>
-        <h2 className="px-4">
-          I am currently looking for software development and web development internship opportunities.
+        <h2 className="px-4 py-1">
+          I am currently looking for software development and web development
+          internship opportunities for Fall 2022 and Winter 2023.
         </h2>
-        <h2 className="px-4">
+        <h2 className="px-4 py-1">
           In my spare time, I play and coach badminton. I have played badminton
-          for 12+ years and enjoy giving back to the community. Since I was once
-          in their shoes, I believe that having a mentor and a friend working
-          towards a common goal is a special connection that can be built though
-          sports.
+          for 12+ years and enjoy social and competitive aspect of the sport.
+          The community is very welcoming, especially with new badminton clubs
+          opening up in the city.
         </h2>
-        <h2 className="px-4">
+        <h2 className="px-4 py-1">
+          I have recently joined bouldering and volleyball groups to try out new
+          interests with friends.
+        </h2>
+        <h2 className="px-4 py-1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
           nemo numquam impedit placeat aut at cumque pariatur sint illo eius
           minus veniam, vitae voluptates ut eum necessitatibus nostrum molestiae
           illum.
         </h2>
-        <h2 className="px-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          nemo numquam impedit placeat aut at cumque pariatur sint illo eius
-          minus veniam, vitae voluptates ut eum necessitatibus nostrum molestiae
-          illum.
-        </h2>
-        <h2 className="px-4">
+        <h2 className="px-4 py-1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
           nemo numquam impedit placeat aut at cumque pariatur sint illo eius
           minus veniam, vitae voluptates ut eum necessitatibus nostrum molestiae
