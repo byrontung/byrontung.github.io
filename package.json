@@ -29,7 +29,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d build",
-    "formatall": "npx prettier --write ."
+    "formatall": "npx prettier --write .",
+    "formatDeploy": "npm run formatall && npm run deploy"
   },
   "eslintConfig": {
     "extends": [
