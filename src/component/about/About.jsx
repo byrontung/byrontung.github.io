@@ -31,13 +31,15 @@ function About() {
         className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0 pb-5"
         style={styles.backgroundRight}
       >
-        <div className="pt-5">
+        <div className="py-5">
           <img className="profileImage" src={profile} alt="Profile" />
         </div>
-        <h1 className="p-5">Welcome to my website!</h1>
         <h2 className="px-4">
-          Hello! My name is Byron Tung and I am student at the University of
+          Hello! My name is Byron Tung and I am third year student at the University of
           Alberta pursing a Specialized Computer Science Degree.
+        </h2>
+        <h2 className="px-4">
+          I am currently looking for software development and web development internship opportunities.
         </h2>
         <h2 className="px-4">
           In my spare time, I play and coach badminton. I have played badminton
@@ -45,12 +47,6 @@ function About() {
           in their shoes, I believe that having a mentor and a friend working
           towards a common goal is a special connection that can be built though
           sports.
-        </h2>
-        <h2 className="px-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          nemo numquam impedit placeat aut at cumque pariatur sint illo eius
-          minus veniam, vitae voluptates ut eum necessitatibus nostrum molestiae
-          illum.
         </h2>
         <h2 className="px-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
