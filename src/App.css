@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
 /* font-family: 'Tangerine', cursive; */
 
 .App {
@@ -10,5 +10,5 @@ body {
   /* display: absolute; */
   /* justify-content: center; */
   /* align-items: center; */
-  background-color: #5F7470 ;
+  width: 100%;
 }
