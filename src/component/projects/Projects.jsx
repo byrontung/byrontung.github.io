@@ -10,7 +10,6 @@ import eswImage from "../../img/esw2.png";
 import profile from "../../img/profile.jpg";
 import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 import "./Projects.css";
-import { motion } from "framer-motion";
 import { Col, Row } from "react-bootstrap";
 
 function Projects() {
@@ -41,42 +40,72 @@ function Projects() {
       <Col
         id="projects_right"
         className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
-        style={styles.backgroundRight}
+        // style={styles.backgroundRight}
       >
-        <motion.div
-          className="vh-100 w-100v d-flex flex-column align-items-center"
-          whileHover={{ zoom: 1.2 }}
-        >
+        <div className="vh-100 w-100v d-flex flex-column align-items-center info">
           <h1>Edmonton SafeWalk</h1>
           <h1>
             <FontAwesomeIcon className="px-2" icon={faReact} />
             <FontAwesomeIcon className="px-2" icon={faPython} />
           </h1>
           <div>
-            <img className="w-100 h-100" src={eswImage} alt="profile" />
+            <img
+              className="w-100 h-100"
+              src={eswImage}
+              alt="Edmonton SafeWalk Homepage"
+            />
           </div>
-        </motion.div>
-        <div className="vh-100 w-100 d-flex flex-column align-items-center">
+          <p>
+            This was a CMPUT 404 project that was provided by EFCL and Sisters
+            Dialogue. This opportunity connect our group with the non-profit
+            organizations EFCL and Sisters Dialogue.
+          </p>
+        </div>
+        <div className="vh-100 w-100 d-flex flex-column align-items-center info">
           <h1>Experimently</h1>
           <h1>
             <FontAwesomeIcon className="px-2" icon={faJava} />
             <FontAwesomeIcon className="px-2" icon={faAndroid} />
           </h1>
-          <img className="profileImage" src={profile} alt="Profile" />
+          <div style={{ backgroundColor: "transparent" }}>
+            <img className="profileImage" src={profile} alt="Profile" />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+            debitis quod facilis ducimus culpa iste quaerat nobis ratione sit,
+            quidem earum vel repellendus aliquam fugit? Obcaecati alias et
+            consequuntur consequatur?
+          </p>
         </div>
-        <div className="vh-100 w-100 d-flex flex-column align-items-center">
+        <div className="vh-100 w-100 d-flex flex-column align-items-center info">
           <h1>Restaurant Order Organizer</h1>
           <h1>
             <FontAwesomeIcon className="px-2" icon={faPython} />
           </h1>
-          <img className="profileImage" src={profile} alt="Profile" />
+          <div style={{ backgroundColor: "transparent" }}>
+            <img className="profileImage" src={profile} alt="Profile" />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+            debitis quod facilis ducimus culpa iste quaerat nobis ratione sit,
+            quidem earum vel repellendus aliquam fugit? Obcaecati alias et
+            consequuntur consequatur?
+          </p>
         </div>
-        <div className="vh-100 w-100 d-flex flex-column align-items-center">
+        <div className="vh-100 w-100 d-flex flex-column align-items-center info">
           <h1>PokemonEffectiveness</h1>
           <h1>
             <FontAwesomeIcon className="px-2" icon={faPython} />
           </h1>
-          <img className="profileImage" src={profile} alt="Profile" />
+          <div style={{ backgroundColor: "transparent" }}>
+            <img className="profileImage" src={profile} alt="Profile" />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+            debitis quod facilis ducimus culpa iste quaerat nobis ratione sit,
+            quidem earum vel repellendus aliquam fugit? Obcaecati alias et
+            consequuntur consequatur?
+          </p>
         </div>
       </Col>
     </Row>

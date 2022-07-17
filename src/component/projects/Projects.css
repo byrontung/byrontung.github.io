@@ -10,3 +10,36 @@
 #projects_right div:nth-child(4) {
   background-color: #adf7b6;
 }
+
+.info {
+  transition: 0.5s;
+}
+
+.info p {
+  margin: 50px;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+}
+
+.info:hover {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.info:hover p {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#projects_right > .info {
+  transition: 0.5s;
+}
+
+#projects_right > .info:hover > div,
+#projects_right > .info:hover > h1 {
+  transition: 0.8s;
+  opacity: 0.1;
+}
