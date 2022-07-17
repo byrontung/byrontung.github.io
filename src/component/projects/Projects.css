@@ -15,7 +15,7 @@
   transition: 1s;
 }
 
-.info p{
+.info p {
   margin: 50px;
   opacity: 0;
   transform: scale(0);
@@ -25,7 +25,7 @@
   position: absolute;
 }
 
-.info div{
+.info div {
   transition: 1s;
 }
 
