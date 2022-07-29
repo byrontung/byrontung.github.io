@@ -1,0 +1,31 @@
+#contact_right p {
+    font-weight: 600;
+}
+
+#faGithub,
+#faFile,
+#faLinkedin {
+    font-size: 6vw;
+}
+
+@media (min-width: 769px) {
+    #contact_right p {
+        font-size: 2.5vw;
+    }
+    #faGithub,
+    #faFile,
+    #faLinkedin {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #contact_right p {
+        font-size: 5vw;
+    }
+    #faFile,
+    #faGithub,
+    #faLinkedin {
+        font-size: 12vw;
+    }
+}
