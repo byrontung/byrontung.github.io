@@ -9,14 +9,14 @@
   border-radius: 90px;
 }
 
-@media (min-width:769px){
-  #about_right p{
+@media (min-width: 769px) {
+  #about_right p {
     font-size: 1.75vw;
   }
 }
 
-@media (max-width:768px){
-  #about_right p{
+@media (max-width: 768px) {
+  #about_right p {
     font-size: 5vw;
   }
 }

@@ -8,8 +8,8 @@ import { Col, Row } from "react-bootstrap";
 
 function Contact() {
   const styles = {
-    backgroundLeft: { backgroundColor: "#DFDFC8", minWidth: "329.5px"},
-    backgroundRight: { backgroundColor: "#b19cd9", minWidth: "329.5px"},
+    backgroundLeft: { backgroundColor: "#DFDFC8", minWidth: "329.5px" },
+    backgroundRight: { backgroundColor: "#b19cd9", minWidth: "329.5px" },
   };
   return (
     <Row
@@ -43,9 +43,13 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} fontSize={"6vw"} color="black" />
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                fontSize={"6vw"}
+                color="black"
+              />
             </a>
-            <h1 style={{fontSize:"2.5vw"}}>LinkedIn</h1>
+            <h1 style={{ fontSize: "2.5vw" }}>LinkedIn</h1>
           </div>
           <div className="d-flex flex-column align-items-center">
             <a
@@ -55,13 +59,13 @@ function Contact() {
             >
               <FontAwesomeIcon icon={faGithub} fontSize={"6vw"} color="black" />
             </a>
-            <h1 style={{fontSize:"2.5vw"}}>Github</h1>
+            <h1 style={{ fontSize: "2.5vw" }}>Github</h1>
           </div>
           <div className="d-flex flex-column align-items-center">
             <a href={resume} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFile} fontSize={"6vw"} color="black" />
             </a>
-            <h1 style={{fontSize:"2.5vw"}}>Resume</h1>
+            <h1 style={{ fontSize: "2.5vw" }}>Resume</h1>
           </div>
         </div>
       </Col>
