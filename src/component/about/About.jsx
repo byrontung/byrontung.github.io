@@ -6,8 +6,8 @@ import { Col, Row } from "react-bootstrap";
 
 function About() {
   const styles = {
-    backgroundLeft: { backgroundColor: "#b8bdb5" },
-    backgroundRight: { backgroundColor: "#d2d4c8" },
+    backgroundLeft: { backgroundColor: "#b8bdb5", minWidth: "384px" },
+    backgroundRight: { backgroundColor: "#d2d4c8", minWidth: "384px" },
   };
   return (
     <Row id="about" className="d-flex position-relative min-vh-100 w-100 m-0">

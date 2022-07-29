@@ -15,7 +15,7 @@ function Contact() {
   return (
     <Row
       id="contact"
-      className="d-flex position-relative min-vh-100 w-100 p-0 m-0 flex-wrap"
+      className="d-flex position-relative min-vh-100 w-100 p-0 m-0"
     >
       <Col
         id="contact_left"

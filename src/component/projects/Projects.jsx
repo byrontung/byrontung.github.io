@@ -15,8 +15,8 @@ import { Col, Row } from "react-bootstrap";
 
 function Projects() {
   const styles = {
-    backgroundLeft: { backgroundColor: "#DFD4C8" },
-    backgroundRight: { backgroundColor: "white" },
+    backgroundLeft: { backgroundColor: "#DFD4C8", minWidth: "384px" },
+    backgroundRight: { backgroundColor: "white", minWidth: "384px" },
   };
   return (
     <Row
@@ -41,6 +41,7 @@ function Projects() {
       <Col
         id="projects_right"
         className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
+        style={styles.backgroundRight}
       >
         <div className="d-flex flex-column align-items-center info text-center">
           <h1>Edmonton SafeWalk</h1>
