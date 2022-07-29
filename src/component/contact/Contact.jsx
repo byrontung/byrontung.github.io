@@ -8,13 +8,13 @@ import { Col, Row } from "react-bootstrap";
 
 function Contact() {
   const styles = {
-    backgroundLeft: { backgroundColor: "#DFDFC8" },
-    backgroundRight: { backgroundColor: "#b19cd9" },
+    backgroundLeft: { backgroundColor: "#DFDFC8", minWidth: "329.5px"},
+    backgroundRight: { backgroundColor: "#b19cd9", minWidth: "329.5px"},
   };
   return (
     <Row
       id="contact"
-      className="d-flex position-relative min-vh-100 w-100 p-0 m-0"
+      className="d-flex position-relative min-vh-100 w-100 p-0 m-0 flex-wrap"
     >
       <Col
         id="contact_left"
@@ -33,19 +33,19 @@ function Contact() {
       </Col>
       <Col
         id="contact_right"
-        className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
+        className="d-flex h-100 w-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
         style={styles.backgroundRight}
       >
-        <div className="vh-100 w-100 d-flex flex-row justify-content-evenly align-items-center">
+        <div className="vh-100 w-100 d-flex flex-column justify-content-evenly align-items-center">
           <div className="d-flex flex-column align-items-center">
             <a
               href="https://www.linkedin.com/in/byron-tung/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} fontSize={100} color="black" />
+              <FontAwesomeIcon icon={faLinkedin} fontSize={"6vw"} color="black" />
             </a>
-            <h1>LinkedIn</h1>
+            <h1 style={{fontSize:"2.5vw"}}>LinkedIn</h1>
           </div>
           <div className="d-flex flex-column align-items-center">
             <a
@@ -53,15 +53,15 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} fontSize={100} color="black" />
+              <FontAwesomeIcon icon={faGithub} fontSize={"6vw"} color="black" />
             </a>
-            <h1>Github</h1>
+            <h1 style={{fontSize:"2.5vw"}}>Github</h1>
           </div>
           <div className="d-flex flex-column align-items-center">
             <a href={resume} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faFile} fontSize={100} color="black" />
+              <FontAwesomeIcon icon={faFile} fontSize={"6vw"} color="black" />
             </a>
-            <h1>Resume</h1>
+            <h1 style={{fontSize:"2.5vw"}}>Resume</h1>
           </div>
         </div>
       </Col>

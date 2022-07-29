@@ -42,20 +42,18 @@ function Projects() {
                 id="projects_right"
                 className="d-flex h-100 flex-grow-1 flex-shrink-0 flex-column align-items-center position-relative p-0"
             >
-                <div className="vh-100 w-100v d-flex flex-column align-items-center info">
+                <div className="d-flex flex-column align-items-center info text-center">
                     <h1>Edmonton SafeWalk</h1>
                     <h1>
                         <FontAwesomeIcon className="px-2" icon={faReact} />
                         <FontAwesomeIcon className="px-2" icon={faPython} />
                     </h1>
-                    <div>
-                        <img
-                            className="w-100 h-100"
-                            src={eswImage}
-                            alt="Edmonton SafeWalk Homepage"
-                        />
-                    </div>
-                    <p id="firstParagraph" style={{ position: "absolute" }}>
+                    <img
+                        className="w-100 h-60"
+                        src={eswImage}
+                        alt="Edmonton SafeWalk Homepage"
+                    />
+                    <p className="m-2 text-center">
                         This was a CMPUT 404 project that was provided by EFCL
                         and Sisters Dialogue. This opportunity connect our group
                         with the non-profit organizations EFCL and Sisters
@@ -67,7 +65,7 @@ function Projects() {
                         scope creep.
                     </p>
                 </div>
-                <div className="vh-100 w-100 d-flex flex-column align-items-center info">
+                <div className="d-flex flex-column align-items-center info text-center">
                     <h1>Experimently</h1>
                     <h1>
                         <FontAwesomeIcon className="px-2" icon={faJava} />
@@ -80,15 +78,18 @@ function Projects() {
                             alt="experiment logo"
                         />
                     </div>
-                    <p id="firstParagraph" style={{ position: "absolute" }}>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Saepe debitis quod facilis ducimus culpa iste
-                        quaerat nobis ratione sit, quidem earum vel repellendus
-                        aliquam fugit? Obcaecati alias et consequuntur
-                        consequatur?
+                    <p className="m-3 text-center lh-base">
+                        This was a CMPUT 301 group project that introduced
+                        software development ideas such as Git, agile,
+                        storyboards, etc. We used Java and Android Studios to
+                        create the app. This project allowed us to set
+                        deadlines with the tasks we had to finish. Learning how
+                        to use Git, planning tools (such as storyboards, user
+                        stories, use case diagrams, etc.), and Android
+                        lifecycles.
                     </p>
                 </div>
-                <div className="vh-100 w-100 d-flex flex-column align-items-center info">
+                <div className="d-flex flex-column align-items-center info text-center">
                     <h1>Restaurant Order Organizer</h1>
                     <h1>
                         <FontAwesomeIcon className="px-2" icon={faPython} />
@@ -100,7 +101,7 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-                    <p id="firstParagraph" style={{ position: "absolute" }}>
+                    <p className="m-3 text-center lh-base">
                         This was a personal project in response to
                         higher-than-normal restaurant orders during big
                         holidays. During these busy times, take-out orders would
@@ -113,7 +114,7 @@ function Projects() {
                         long their order would take.
                     </p>
                 </div>
-                <div className="vh-100 w-100 d-flex flex-column align-items-center info">
+                <div className="d-flex flex-column align-items-center info text-center">
                     <h1>PokemonEffectiveness</h1>
                     <h1>
                         <FontAwesomeIcon className="px-2" icon={faPython} />
@@ -125,7 +126,7 @@ function Projects() {
                             alt="Profile"
                         />
                     </div>
-                    <p id="firstParagraph" style={{ position: "absolute" }}>
+                    <p className="m-3 text-center lh-base">
                         This project was to apply knowledge I learned from the
                         Python library called Pandas. I used dataframes to
                         search for the specific Pokemon entered, then took the
