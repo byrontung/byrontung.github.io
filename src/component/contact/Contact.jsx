@@ -3,7 +3,7 @@ import BottomNagivationBar from "../bottomNavigationbar/BottomNagivationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
-import resume from "../../img/ByronTungResume2022Fall.pdf";
+import resume from "../../img/ByronTungResume2025Spring.pdf";
 import { Col, Row } from "react-bootstrap";
 import "./Contact.css";
 

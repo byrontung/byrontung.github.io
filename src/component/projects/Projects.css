@@ -22,37 +22,3 @@
     font-size: 5vw;
   }
 }
-
-/* .info p {
-  font-size: 1.25vmax;
-  text-align: center;
-} 
-
-@media screen and (max-width: 768px) {
-  .info p {
-    font-size: 2.5vmax;
-  }
-} */
-
-/* .info div {
-  transition: 1s;
-}
-
-.info:hover {
-  background: rgba(0, 0, 0, 0.9) !important;
-}
-
-.info:hover p {
-  opacity: 1;
-  transform: scale(1);
-}
-
-#projects_right > .info {
-  transition: 0.5s;
-}
-
-#projects_right > .info:hover > div,
-#projects_right > .info:hover > h1 {
-  transition: 0.8s;
-  opacity: 0.1;
-} */
